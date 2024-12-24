@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Tic Tac Toe</title> 
+  <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+  <div id="menu"> 
+   <h1>TIC TAC TOE</h1> 
+   <button id="vs-ai">PLAY AGAINST AI</button> 
+   <button id="vs-player">TWO PLAYERS</button> 
+   <div class="difficulty"> 
+    <p>SELECT DIFFICULTY:</p> 
+    <button class="difficulty-btn" data-difficulty="easy">EASY</button> 
+    <button class="difficulty-btn" data-difficulty="medium">MEDIUM</button> 
+    <button class="difficulty-btn" data-difficulty="hard">HARD</button> 
+   </div> 
+   <div class="footer">
+     Enjoy 
+   </div> 
+  </div> 
+  <div id="game" class="hidden"> 
+   <h1>TIC TAC TOE</h1> 
+   <div id="scoreboard"> 
+    <p>PLAYER X: <span id="score-x">0</span></p> 
+    <p>PLAYER O: <span id="score-o">0</span></p> 
+   </div> 
+   <div id="board-wrapper"> 
+    <div id="board"> 
+     <div class="cell" data-index="0"></div> 
+     <div class="cell" data-index="1"></div> 
+     <div class="cell" data-index="2"></div> 
+     <div class="cell" data-index="3"></div> 
+     <div class="cell" data-index="4"></div> 
+     <div class="cell" data-index="5"></div> 
+     <div class="cell" data-index="6"></div> 
+     <div class="cell" data-index="7"></div> 
+     <div class="cell" data-index="8"></div> 
+    </div> 
+   </div> 
+   <p id="status"></p> 
+   <button id="restart">RESET SCORES</button> 
+   <button id="back-to-menu">BACK TO MENU</button> 
+  </div> 
+  <script src="script.js"></script> 
+ </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #dfe60e;
+  /* background-image: url('https://www.w3schools.com/w3images/forest.jpg'); */
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+  color: rgb(230, 17, 17);
+}
+h1 {
+  color: #cd1010;
+  margin: 20px 0;
+}
+#word-container {
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin: 20px 0;
+}
+#letters-container {
+  margin: 20px 0;
+}
+.letter {
+  display: inline-block;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px;
+  background-color: #007bff;
+  color: rgb(246, 15, 15);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.letter:hover {
+  background-color: #0056b3;
+}
+#hangman {
+  margin: 20px auto;
+  max-width: 300px;
+}
+#status {
+  margin: 20px 0;
+  font-size: 18px;
+}
+#category {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
+}
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
